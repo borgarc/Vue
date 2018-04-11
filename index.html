@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Vuejs</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <p>{{ message }}</p>
+            <button @click="changeValue">Click Me</button>
+            <hr>
+            <div class="color-container" :style='red'></div>
+            <br>
+            <button @click="changeColor">Change Color</button>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
